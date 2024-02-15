@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Dice Simulator</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Dice Simulator</h1>
+    <hr />
+    <h3>Choose a simulation option</h3>
+    <p>
+      <select id="character-select">
+        <option value="once">Roll Dice Once</option>
+        <option value="five">Roll Dice 5 Times</option>
+        <option value="option">Roll Dice X Times</option>
+        <option value="snakeEyes">Roll Until Snake Eyes</option>
+      </select>
+    </p>
+
+    <p>
+      <button id="roll">ROLL</button>
+      <button id="reset">RESET</button>
+    </p>
+
+    <div id="dice">
+      <img id="dice1" src="images/0.png" />
+      <img id="dice2" src="images/0.png" />
+    </div>
+
+    <br />
+
+    <div id="diceDisplay">
+      <h3>Dice Rolls</h3>
+    </div>
+  </body>
+</html>
